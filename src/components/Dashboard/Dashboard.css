@@ -1,7 +1,6 @@
 .dashboard {
   position: sticky;
   top: 0;
-  position: relative;
 }
 
 .user {
@@ -16,14 +15,23 @@
   border-radius: 15px;
 }
 
+.metrics {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+  line-height: 1;
+  background-color: #dbedff;
+  margin: 20px;
+  padding: 0 10px;
+  border-radius: 10px;
+}
+
 .btn-cart {
   width: 85%;
   background-color: #949494;
   border: none;
   border-radius: 10px;
-  position: absolute;
-  bottom: 20px;
-  margin-left: 15px;
+  margin-left: 18px;
 }
 
 .btn-cart:hover {
