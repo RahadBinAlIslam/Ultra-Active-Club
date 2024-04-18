@@ -1,0 +1,53 @@
+.exercise {
+  background-color: white;
+  width: 300px;
+  height: 500px;
+  border-radius: 8px;
+  padding: 7px;
+  position: relative;
+}
+
+.exercise img {
+  width: 286px;
+  height: 135px;
+  border-radius: 8px;
+  margin: 7px;
+}
+
+.exercise-info {
+  text-align: justify;
+  margin: 0 14px;
+}
+
+.exercise-info p {
+  margin-bottom: 0;
+  margin-top: 5px;
+  font-weight: 500;
+}
+
+.exercise-name {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 25px;
+  margin-top: 7px;
+}
+
+.btn-cart {
+  width: 85%;
+  background-color: #949494;
+  border: none;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 20px;
+  margin-left: 15px;
+}
+
+.btn-cart:hover {
+  background-color: yellow;
+}
+
+.btn-cart:focus {
+  background-color: green;
+}
