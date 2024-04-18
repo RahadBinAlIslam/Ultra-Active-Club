@@ -1,12 +1,8 @@
 import React from "react";
 import user from "./../../images/user.jpg";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import "./Dashboard.css";
-
-//toast.configure();
 
 const notify = () => toast("Successfully Completed Today's Exercise!");
 
@@ -19,13 +15,9 @@ const Dashboard = ({ dashboard }) => {
     <div className="dashboard">
       <div className="user">
         <img src={user} alt="" />
-        <div>
-          <h5>Rahad Bin Al Islam</h5>
-          <br />
-          <small>
-            <FontAwesomeIcon icon={faLocationDot} />
-            Dhaka, Bangladesh
-          </small>
+        <div className="user-info">
+          <h4>Rahad Bin Al Islam</h4>
+          <p>Bodybuilder</p>
         </div>
       </div>
       <div className="metrics">
