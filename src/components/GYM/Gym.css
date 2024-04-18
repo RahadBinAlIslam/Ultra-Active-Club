@@ -1,6 +1,7 @@
 .intro {
   display: flex;
   align-items: center;
+  padding-top: 10px;
   margin-left: 38px;
 }
 
@@ -26,6 +27,7 @@
 }
 
 .dashboard-container {
+  border-radius: 10px;
   background-color: white;
 }
 

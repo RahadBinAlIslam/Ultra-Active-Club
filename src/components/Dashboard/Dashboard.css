@@ -1,6 +1,7 @@
 .dashboard {
   position: sticky;
   top: 0;
+  padding: 20px;
 }
 
 .user {
@@ -21,23 +22,36 @@
   text-align: center;
   line-height: 1;
   background-color: #dbedff;
-  margin: 20px;
-  padding: 0 10px;
+  padding: 0 8px;
   border-radius: 10px;
 }
 
-.btn-cart {
-  width: 85%;
+.timer {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-column-gap: 5px;
+  background-color: #dbedff;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.spacing {
+  background-color: #dbedff;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.completion {
+  width: 100%;
   background-color: #949494;
   border: none;
   border-radius: 10px;
-  margin-left: 18px;
 }
 
-.btn-cart:hover {
+.completion:hover {
   background-color: yellow;
 }
 
-.btn-cart:focus {
+.completion:focus {
   background-color: green;
 }
