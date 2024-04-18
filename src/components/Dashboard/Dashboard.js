@@ -22,28 +22,28 @@ const Dashboard = ({ dashboard }) => {
       </div>
       <div className="metrics">
         <h4>
-          75<small>kg</small>
+          75<small className="highlight">kg</small>
           <br />
-          <small>Weight</small>
+          <small className="highlight">Weight</small>
         </h4>
         <h4>
-          6.5<small>in</small>
+          6.5<small className="highlight">in</small>
           <br />
-          <small>Height</small>
+          <small className="highlight">Height</small>
         </h4>
         <h4>
-          25<small>yrs</small>
+          25<small className="highlight">yrs</small>
           <br />
-          <small>Age</small>
+          <small className="highlight">Age</small>
         </h4>
       </div>
       <h3>Add A Break</h3>
       <div className="timer">
-        <button>10s</button>
-        <button>20s</button>
-        <button>30s</button>
-        <button>40s</button>
-        <button>50s</button>
+        <button className="circle">10s</button>
+        <button className="circle">20s</button>
+        <button className="circle">30s</button>
+        <button className="circle">40s</button>
+        <button className="circle">50s</button>
       </div>
       <h3>Exercise Details</h3>
       <h5 className="spacing">Exercise Time: {time} seconds</h5>
