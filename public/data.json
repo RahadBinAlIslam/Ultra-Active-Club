@@ -2,63 +2,63 @@
     {
       "name": "Incline Hammer Curls",
       "age": "20-25",
-      "time": "30s",
+      "time": 30,
       "img": "images/Incline Hammer Curls.jpg",
       "instructions": "Seat yourself on an incline bench with a dumbbell in each hand. You should press firmly against the back with your feet together. Initiate the movement by flexing at the elbow, attempting to keep the upper arm stationary."
     },
     {
       "name": "Wide-grip barbell curl",
       "age": "20-22",
-      "time": "25s",
+      "time": 25,
       "img": "images/Wide-grip barbell curl.jpg",
       "instructions": "Seat yourself on an incline bench with a dumbbell in each hand. You should press firmly against the back with your feet together. Initiate the movement by flexing at the elbow, attempting to keep the upper arm stationary."
     },
     {
       "name": "EZ-bar spider curl",
       "age": "18-25",
-      "time": "30s",
+      "time": 30,
       "img": "images/EZ-bar spider curl.jpg",
       "instructions": "Seat yourself on an incline bench with a dumbbell in each hand. You should press firmly against the back with your feet together. Initiate the movement by flexing at the elbow, attempting to keep the upper arm stationary."
     },
     {
       "name": "Hammer Curls",
       "age": "20-30",
-      "time": "40s",
+      "time": 40,
       "img": "images/Hammer Curls.png",
       "instructions": "Seat yourself on an incline bench with a dumbbell in each hand. You should press firmly against the back with your feet together. Initiate the movement by flexing at the elbow, attempting to keep the upper arm stationary."
     },
     {
       "name": "EZ-Bar Curl",
       "age": "20-35",
-      "time": "45s",
+      "time": 45,
       "img": "images/EZ-Bar Curl.jpg",
       "instructions": "Seat yourself on an incline bench with a dumbbell in each hand. You should press firmly against the back with your feet together. Initiate the movement by flexing at the elbow, attempting to keep the upper arm stationary."
     },
     {
       "name": "Zottman Curl",
       "age": "30-35",
-      "time": "20s",
+      "time": 20,
       "img": "images/Zottman Curl.jpg",
       "instructions": "Seat yourself on an incline bench with a dumbbell in each hand. You should press firmly against the back with your feet together. Initiate the movement by flexing at the elbow, attempting to keep the upper arm stationary."
     },
     {
       "name": "Biceps curl to shoulder press",
       "age": "15-25",
-      "time": "25s",
+      "time": 25,
       "img": "images/Biceps curl to shoulder press.png",
       "instructions": "Seat yourself on an incline bench with a dumbbell in each hand. You should press firmly against the back with your feet together. Initiate the movement by flexing at the elbow, attempting to keep the upper arm stationary."
     },
     {
       "name": "Barbell Curl",
       "age": "20-25",
-      "time": "10s",
+      "time": 10,
       "img": "images/Barbell Curl.png",
       "instructions": "Seat yourself on an incline bench with a dumbbell in each hand. You should press firmly against the back with your feet together. Initiate the movement by flexing at the elbow, attempting to keep the upper arm stationary."
     },
     {
       "name": "Concentration curl",
       "age": "15-25",
-      "time": "15s",
+      "time": 15,
       "img": "images/Concentration curl.png",
       "instructions": "Seat yourself on an incline bench with a dumbbell in each hand. You should press firmly against the back with your feet together. Initiate the movement by flexing at the elbow, attempting to keep the upper arm stationary."
     }

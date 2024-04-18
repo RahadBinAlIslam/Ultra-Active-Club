@@ -1,0 +1,35 @@
+.dashboard {
+  position: sticky;
+  top: 0;
+  position: relative;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  line-height: 0;
+}
+
+.user img {
+  width: 50px;
+  height: 50px;
+  border-radius: 15px;
+}
+
+.btn-cart {
+  width: 85%;
+  background-color: #949494;
+  border: none;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 20px;
+  margin-left: 15px;
+}
+
+.btn-cart:hover {
+  background-color: yellow;
+}
+
+.btn-cart:focus {
+  background-color: green;
+}

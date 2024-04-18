@@ -6,7 +6,7 @@ import Dashboard from "../Dashboard/Dashboard";
 
 const Gym = () => {
   const [exercises, setExercises] = useState([]);
-  const [dashboards, setDashboards] = useState([]);
+  const [dashboard, setDashboard] = useState([]);
 
   useEffect(() => {
     fetch("data.json")
@@ -15,8 +15,8 @@ const Gym = () => {
   }, []);
 
   const handleAddToCart = (exercise) => {
-    const newDashboard = [...dashboards, exercise];
-    setDashboards(newDashboard);
+    const newDashboard = [...dashboard, exercise];
+    setDashboard(newDashboard);
   };
 
   return (
@@ -39,7 +39,7 @@ const Gym = () => {
           ))}
         </div>
         <div className="dashboard-container">
-          <Dashboard dashboards={dashboards}></Dashboard>
+          <Dashboard dashboard={dashboard}></Dashboard>
         </div>
       </div>
     </div>
