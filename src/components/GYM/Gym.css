@@ -33,7 +33,7 @@
 
 @media screen and (max-width: 1100px) {
   .exercise-container {
-    grid-row: repeat(2fr, 1);
+    grid-row: repeat(3fr, 1);
   }
 }
 

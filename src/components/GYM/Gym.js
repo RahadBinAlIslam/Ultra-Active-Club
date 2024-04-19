@@ -21,13 +21,11 @@ const Gym = () => {
 
   return (
     <div>
-      <div>
-        <div className="intro">
-          <img src={logo} alt="" />
-          <h2>Masud Fitness Empire</h2>
-        </div>
-        <h3 className="subtitle">Select today's exercise</h3>
+      <div className="intro">
+        <img src={logo} alt="" />
+        <h2>Masud Fitness Empire</h2>
       </div>
+      <h3 className="subtitle">Select today's exercise</h3>
       <div className="gym-container">
         <div className="exercise-container">
           {exercises.map((exercise) => (
