@@ -1,24 +1,17 @@
-import { React, useState, useEffect } from "react";
+import React from "react";
 import user from "./../../images/user.jpg";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import "./Dashboard.css";
-import Interval from "../Interval/Interval";
+import Holder from "../Holder/Holder";
 
 const notify = () => toast("Successfully Completed Today's Exercise!");
 
 const Dashboard = ({ dashboard }) => {
-  const [intervals, setIntervals] = useState([]);
   let time = 0;
   for (const exercise of dashboard) {
     time = time + exercise.time;
   }
-
-  useEffect(() => {
-    fetch("interval.json")
-      .then((res) => res.json())
-      .then((data) => setIntervals(data));
-  }, []);
 
   return (
     <div className="dashboard">
@@ -47,14 +40,9 @@ const Dashboard = ({ dashboard }) => {
         </h4>
       </div>
       <h3>Add A Break</h3>
-      <div className="timer">
-        {intervals.map((interval) => (
-          <Interval key={interval.id} interval={interval}></Interval>
-        ))}
-      </div>
+      <Holder></Holder>
       <h3>Exercise Details</h3>
       <h5 className="spacing">Exercise Time: {time} seconds</h5>
-      <h5 className="spacing">Break Time: {time} seconds</h5>
       <button className="completion" onClick={notify}>
         <p>Activity Completed</p>
       </button>
