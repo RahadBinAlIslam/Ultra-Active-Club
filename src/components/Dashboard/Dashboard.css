@@ -35,36 +35,6 @@
   color: gray;
 }
 
-.circle {
-  background-color: white;
-  border: none;
-  padding: 8px;
-  border-radius: 100px;
-}
-
-.circle:hover {
-  background-color: beige;
-}
-
-.circle:focus {
-  background-color: #4754c9;
-}
-
-.timer {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-column-gap: 5px;
-  background-color: #dbedff;
-  padding: 10px;
-  border-radius: 10px;
-}
-
-.spacing {
-  background-color: #dbedff;
-  padding: 10px;
-  border-radius: 10px;
-}
-
 .completion {
   color: white;
   width: 100%;

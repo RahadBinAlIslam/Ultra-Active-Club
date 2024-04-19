@@ -41,8 +41,7 @@ const Dashboard = ({ dashboard }) => {
       </div>
       <h3>Add A Break</h3>
       <Holder></Holder>
-      <h3>Exercise Details</h3>
-      <h5 className="spacing">Exercise Time: {time} seconds</h5>
+      <h5 className="spacing">Exercise Time: {time} seconds</h5>git
       <button className="completion" onClick={notify}>
         <p>Activity Completed</p>
       </button>

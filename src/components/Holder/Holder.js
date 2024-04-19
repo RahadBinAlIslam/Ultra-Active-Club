@@ -1,6 +1,8 @@
 import { React, useState, useEffect } from "react";
 import Interval from "../Interval/Interval";
 import Break from "../Break/Break";
+import "./Holder.css";
+import { addToDb } from "../../Utilities/fakedb";
 
 const Holder = () => {
   const [intervals, setIntervals] = useState([]);
@@ -15,6 +17,7 @@ const Holder = () => {
   const handleAddToCart = (interval) => {
     const newBreaks = [...breaks, interval];
     setBreaks(newBreaks);
+    addToDb(interval.id);
   };
 
   return (

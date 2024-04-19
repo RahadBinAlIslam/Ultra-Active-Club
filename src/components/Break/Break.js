@@ -1,14 +1,16 @@
 import React from "react";
+import "./Break.css";
 
 const Break = ({ breaks }) => {
-  let time = 0;
+  let gap = 0;
   for (const interval of breaks) {
-    time = interval.time;
+    gap = interval.time;
   }
 
   return (
     <div>
-      <h5 className="spacing">Break Time: {time} seconds</h5>
+      <h3>Exercise Details</h3>
+      <h5 className="spacing">Break Time: {gap} seconds</h5>
     </div>
   );
 };

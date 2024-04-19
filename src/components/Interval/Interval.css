@@ -1,0 +1,14 @@
+.circle {
+  background-color: white;
+  border: none;
+  padding: 8px;
+  border-radius: 100px;
+}
+
+.circle:hover {
+  background-color: beige;
+}
+
+.circle:focus {
+  background-color: #4754c9;
+}
