@@ -4,9 +4,9 @@ const addToDb = (id) => {
   // add quantity
   const quantity = shoppingCart[id];
   if (!quantity) {
-    shoppingCart[id] = 10;
+    shoppingCart[id] = 0;
   } else {
-    const newQuantity = quantity + 10;
+    const newQuantity = quantity;
     shoppingCart[id] = newQuantity;
   }
   localStorage.setItem("shopping-cart", JSON.stringify(shoppingCart));
