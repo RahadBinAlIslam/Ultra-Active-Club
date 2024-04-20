@@ -31,14 +31,14 @@
   background-color: white;
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 800px) {
   .exercise-container {
-    grid-row: repeat(3fr, 1);
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (max-width: 420px) {
   .exercise-container {
-    grid-column: 1;
+    grid-template-columns: repeat(1, 1fr);
   }
 }
